@@ -1,4 +1,6 @@
-# AgriNex Overseas — Premium Indian Rice Exporter
+# AgriNex Overseas — Premium Indian 
+
+Rice Exporter
 
 A modern, professional website for AgriNex Overseas, a leading exporter of premium-quality Indian rice to global markets.
 
