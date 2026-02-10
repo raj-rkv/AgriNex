@@ -1,0 +1,20 @@
+{
+  "name": "agrinex-overseas",
+  "version": "1.0.0",
+  "description": "AgriNex Overseas - Premium Indian Rice Exporter",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8888",
+    "serve": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "rice",
+    "export",
+    "india",
+    "agrinex",
+    "basmati"
+  ],
+  "author": "AgriNex Overseas",
+  "license": "MIT"
+}
