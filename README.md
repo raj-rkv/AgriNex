@@ -130,7 +130,7 @@ MIT License
 
 **AgriNex Overseas**  
 Mumbai, Maharashtra, India  
-Email: [Info@AgriNex.com](mailto:Info@AgriNex.com)  
+Email: [marketing@agrinexoverseas.com](mailto:marketing@agrinexoverseas.com)  
 Mobile: [+91 99290 30015](tel:+919929030015)
 
 ---

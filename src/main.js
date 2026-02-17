@@ -24,7 +24,7 @@ app.appendChild(main)
 // footer
 const footer = document.createElement('footer')
 footer.className = 'site-footer'
-footer.innerHTML = `© ${new Date().getFullYear()} AgriNex Overseas — Mumbai, India • <a href="mailto:Info@AgriNex.com">Info@AgriNex.com</a>`
+footer.innerHTML = `© ${new Date().getFullYear()} AgriNex Overseas — Mumbai, India • <a href="mailto:marketing@agrinexoverseas.com">marketing@agrinexoverseas.com</a>`
 app.appendChild(footer)
 
 // interactions

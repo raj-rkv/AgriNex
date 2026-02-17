@@ -1,0 +1,25 @@
+/* Lists, process flows, facts, accessibility and utility classes */
+.certs li, .why li{ margin:var(--space-md) 0;color:var(--text-primary);display:flex;align-items:center;animation:fadeInLeft .6s ease-out;text-align:left;line-height:var(--line-height-relaxed) }
+.certs li::before, .why li::before{ content:'✓';color:var(--primary-green);font-weight:700;margin-right:var(--space-md);display:inline-block;width:var(--space-lg);animation:scaleIn .5s cubic-bezier(0.34,1.56,0.64,1);flex-shrink:0 }
+.process-list{ margin-left:var(--space-lg);color:var(--text-primary);padding-left:var(--space-md) }
+.process-list li{ margin:var(--space-lg) 0;padding-left:var(--space-md);line-height:var(--line-height-loose);animation:fadeInLeft .6s ease-out;text-align:left }
+.facts{ list-style:none;padding:0;margin:var(--space-xl) 0 0 }
+.facts li{ color:var(--deep-blue);margin:var(--space-md) 0;font-size:0.95rem;line-height:var(--line-height-normal);animation:fadeInLeft .6s ease-out;text-align:left }
+.facts li::before{ content:'→';color:var(--primary-green);margin-right:var(--space-md);display:inline-block;transition:transform .3s ease }
+.facts li:hover::before{ transform:translateX(4px) }
+
+/* ACCESSIBILITY */
+.skip-link{ position:absolute;left:0;top:0;background:var(--primary-green);color:var(--off-white);padding:.6rem .9rem;border-radius:0 0 6px 0;transform:translateY(-120%);transition:transform .2s ease;font-weight:600;z-index:1000 }
+.skip-link:focus{ transform:translateY(0) }
+a:focus,button:focus,.btn:focus{ outline:3px solid rgba(107,168,79,0.3);outline-offset:2px }
+
+/* Small utility classes */
+.section-subtitle{ color:var(--deep-blue);font-size:0.95rem;line-height:var(--line-height-relaxed);margin:var(--space-md) 0 var(--space-xl) }
+.contact-company{ font-size:1.1rem;font-weight:600;margin:0 0 var(--space-md);color:var(--deep-blue) }
+.contact-location{ color:var(--muted);margin:0 0 var(--space-xl) }
+.contact-section{ font-weight:600;color:var(--deep-blue);margin:var(--space-lg) 0 var(--space-sm) }
+.contact-detail{ margin:0 0 var(--space-lg);color:var(--deep-blue) }
+.contact-detail a{ color:var(--primary-green) }
+
+.reveal{ opacity:0;transform:translateY(30px) }
+.reveal.active{ animation:fadeInUp .8s ease-out forwards }

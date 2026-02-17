@@ -1,0 +1,13 @@
+/* Base resets, typography and layout primitives */
+*{box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth}
+body,html,#app{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;color:var(--text-primary);background:var(--bg);line-height:var(--line-height-normal);font-weight:400}
+.container{max-width:1200px;margin:0 auto;padding:0 var(--space-lg)}
+
+/* ===== BASE TYPOGRAPHY ===== */
+h1,h2,h3,h4,h5,h6{ text-align:left;margin-top:0;font-weight:700;color:var(--deep-blue) }
+p{ text-align:left;line-height:var(--line-height-relaxed);margin:var(--space-md) 0;color:var(--text-primary) }
+a{ color:var(--primary-green);text-decoration:none;transition:all .2s ease }
+a:hover{ color:var(--brown-tan);opacity:0.85 }
+ul,ol{ text-align:left;margin:var(--space-md) 0;padding-left:var(--space-lg);color:var(--text-primary) }
+li{ text-align:left;margin:var(--space-sm) 0;line-height:var(--line-height-relaxed);color:var(--text-primary) }

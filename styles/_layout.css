@@ -1,0 +1,22 @@
+/* Navigation, header and major layout sections */
+.nav{padding:1rem 0;background:rgba(255,255,255,0.8);border-bottom:1px solid rgba(107,168,79,0.15);position:sticky;top:0;z-index:999;animation: slideInDown 0.6s ease-out;backdrop-filter: blur(10px);box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.brand{font-weight:700;font-size:1.2rem;color:var(--deep-blue);text-decoration:none;letter-spacing:-0.5px;transition:all .3s ease}
+.brand:hover{ color:var(--primary-green);text-shadow:0 0 20px rgba(107,168,79,0.3) }
+#nav-toggle{ display:none;background:transparent;border:1.5px solid rgba(27,58,87,0.2);color:var(--deep-blue);padding:.5rem .75rem;border-radius:6px;cursor:pointer;transition:all .2s ease }
+#nav-toggle:hover{ border-color:var(--primary-green);background:rgba(107,168,79,0.08) }
+.nav-menu{ display:flex;gap:2rem }
+.nav-menu a{ color:var(--deep-blue);text-decoration:none;padding:.5rem .75rem;border-radius:6px;transition:all .25s ease;font-weight:500;font-size:0.95rem;position:relative }
+.nav-menu a::after{ content:'';position:absolute;bottom:0;left:0.75rem;width:0;height:2px;background:var(--primary-green);transition:width .3s ease }
+.nav-menu a:hover::after{ width:calc(100% - 1.5rem) }
+.nav-menu a:hover{ background:rgba(107,168,79,0.08);color:var(--primary-green) }
+
+.main{ padding:var(--space-3xl) var(--space-lg) }
+.hero{ display:grid;grid-template-columns:1fr 360px;gap:var(--space-xl);align-items:start;padding:var(--space-xl) 0 }
+.hero-left h1{ margin:0 0 var(--space-md);font-size:2.8rem;line-height:var(--line-height-tight);font-weight:700;letter-spacing:-1px;color:var(--deep-blue);text-align:left;animation:fadeInUp .8s ease-out }
+.hero-left h1 span{ color:var(--primary-green);display:inline-block;animation:fadeInUp .8s ease-out .1s both }
+.lead{ color:var(--text-secondary);line-height:var(--line-height-loose);font-size:1.05rem;margin:0 0 var(--space-xl);text-align:left;animation:fadeInUp .8s ease-out .2s both }
+
+.section{ margin-top:var(--space-3xl);padding:var(--space-2xl) 0;animation:fadeInUp .8s ease-out }
+.section h2{ font-size:2.2rem;margin:0 0 var(--space-lg);font-weight:700;letter-spacing:-0.5px;text-align:left;color:var(--deep-blue);animation:fadeInUp .8s ease-out }
+.section h3{ font-size:1.3rem;margin:var(--space-xl) 0 var(--space-md);font-weight:600;text-align:left;color:var(--deep-blue);animation:fadeInUp .6s ease-out }

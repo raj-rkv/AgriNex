@@ -1,0 +1,19 @@
+/* Responsive adjustments */
+@media(max-width:900px){
+  .hero{ grid-template-columns:1fr; gap:var(--space-xl) }
+  .hero-left h1{ font-size:2rem }
+  .nav-menu{ display:none; flex-direction:column; gap:var(--space-sm); position:absolute; top:100%; left:0; right:0; background:rgba(27,58,87,0.95); padding:var(--space-lg); border-top:1px solid rgba(107,168,79,0.1); animation:slideInDown .3s ease-out }
+  #nav-toggle{ display:block }
+  .nav-menu.open{ display:flex }
+  .about-grid{ grid-template-columns:1fr }
+  .cards{ grid-template-columns:1fr }
+}
+@media(max-width:600px){
+  .hero-left h1{ font-size:1.5rem }
+  .section h2{ font-size:1.6rem }
+  .cta{ gap:var(--space-sm) }
+  .btn{ padding:0.7rem var(--space-md);font-size:0.9rem }
+  .nav-inner{ gap:var(--space-md) }
+  .nav-menu{ gap:0 }
+  .container{ padding:0 var(--space-md) }
+}

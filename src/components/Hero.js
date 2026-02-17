@@ -19,7 +19,7 @@ export default function Hero() {
       <h3>Bulk supply & private labeling</h3>
       <p>Customized packaging, strict quality control, and timely global delivery.</p>
       <dl>
-        <dt>Email</dt><dd><a href="mailto:Info@AgriNex.com">Info@AgriNex.com</a></dd>
+        <dt>Email</dt><dd><a href="mailto:marketing@agrinexoverseas.com">marketing@agrinexoverseas.com</a></dd>
         <dt>Mobile</dt><dd><a href="tel:+919929030015">+91 99290 30015</a></dd>
       </dl>
     </aside>
