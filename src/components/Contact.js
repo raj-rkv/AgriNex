@@ -9,7 +9,7 @@ export default function Contact() {
         <h3>AgriNex Overseas</h3>
         <p class="contact-location"><strong>📍 Location:</strong> Mumbai, Maharashtra, India</p>
         <p class="contact-detail"><strong>📧 Email:</strong> <a href="mailto:marketing@agrinexoverseas.com">marketing@agrinexoverseas.com</a></p>
-        <p class="contact-detail"><strong>📱 Mobile:</strong> <a href="tel:+919929030015">+91 99290 30015</a></p>
+        <!-- mobile number removed per request -->
       </div>
       <div class="contact-info-card">
         <h3>International Inquiries</h3>

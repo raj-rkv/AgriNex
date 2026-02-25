@@ -20,7 +20,7 @@ export default function Hero() {
       <p>Customized packaging, strict quality control, and timely global delivery.</p>
       <dl>
         <dt>Email</dt><dd><a href="mailto:marketing@agrinexoverseas.com">marketing@agrinexoverseas.com</a></dd>
-        <dt>Mobile</dt><dd><a href="tel:+919929030015">+91 99290 30015</a></dd>
+        <!-- mobile number removed per request -->
       </dl>
     </aside>
   `
