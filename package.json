@@ -1,7 +1,7 @@
 {
   "name": "agrinex-overseas",
-  "version": "1.0.0",
-  "description": "AgriNex Overseas - Premium Indian Rice Exporter",
+  "version": "2.0.0",
+  "description": "AgriNex Overseas - Premium Agriculture Product Exporter",
   "type": "module",
   "main": "index.html",
   "scripts": {
@@ -9,11 +9,13 @@
     "serve": "python3 -m http.server 3000"
   },
   "keywords": [
-    "rice",
+    "agriculture",
     "export",
     "india",
     "agrinex",
-    "basmati"
+    "rice",
+    "feed-additives",
+    "animal-nutrition"
   ],
   "author": "AgriNex Overseas",
   "license": "MIT"

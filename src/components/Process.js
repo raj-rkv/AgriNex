@@ -1,18 +1,36 @@
+import { icon } from '../utils/icons.js'
+
 export default function Process() {
+  const steps = [
+    { icon: 'clipboardList', title:'Inquiry', desc:'Share your product requirements & specifications' },
+    { icon: 'microscope', title:'Sourcing & QC', desc:'Premium sourcing with rigorous quality testing' },
+    { icon: 'package', title:'Packaging', desc:'Food-safe, customizable, moisture-proof packaging' },
+    { icon: 'fileText', title:'Documentation', desc:'Complete export docs & certifications' },
+    { icon: 'ship', title:'Shipping', desc:'Coordinated global logistics & dispatch' },
+    { icon: 'checkCircle', title:'Delivery', desc:'Guaranteed on-time with full support' },
+  ]
+
   const s = document.createElement('section')
   s.id = 'process'
   s.className = 'section container'
   s.innerHTML = `
-    <h2>Our 6-Step Export Process</h2>
-    <p class="section-subtitle">From selection to delivery — quality and reliability at every step</p>
-    <ol class="process-list">
-      <li><strong>Product Selection</strong> — Sourcing premium rice from trusted farms</li>
-      <li><strong>Quality Inspection</strong> — Rigorous testing for purity and standards</li>
-      <li><strong>Hygienic Packaging</strong> — Food-safe, customizable, moisture-proof packaging</li>
-      <li><strong>Documentation & Compliance</strong> — Complete export documentation and certifications</li>
-      <li><strong>Logistics & Shipping</strong> — Coordinated global logistics and timely dispatch</li>
-      <li><strong>On-Time Delivery</strong> — Guaranteed delivery with tracking and support</li>
-    </ol>
+    <div class="section-header">
+      <div class="section-label">How It Works</div>
+      <h2>Our 6-Step <span class="accent">Export Process</span></h2>
+      <p class="section-subtitle">From inquiry to delivery — quality and reliability at every step of your order, across all product categories.</p>
+    </div>
+    <div class="timeline stagger-children">
+      ${steps.map((step, i) => `
+        <div class="timeline-step reveal">
+          <div class="step-circle">
+            ${icon(step.icon, 24)}
+            <span class="step-num">${i + 1}</span>
+          </div>
+          <h4>${step.title}</h4>
+          <p>${step.desc}</p>
+        </div>
+      `).join('')}
+    </div>
   `
   return s
 }
