@@ -1,7 +1,6 @@
 import { icon } from '../utils/icons.js'
 
-const WEBHOOK_URL = 'https://chat.googleapis.com/v1/spaces/AAQA1kPxNes/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=93NIbDe-TfLz6YUw_MhrvlJbIswPLBPnpG0if7r7eKY'
-
+const WEBHOOK_URL = import.meta.env.VITE_GOOGLE_CHAT_WEBHOOK_URL;
 /**
  * Sends form data to Google Chat Space via webhook
  */
